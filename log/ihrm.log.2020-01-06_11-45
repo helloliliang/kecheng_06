@@ -1,0 +1,5 @@
+2020-01-06 11:45:21,180 INFO [root] [__init__.py(<module>:9)] - TEST日志器能不能正常工作
+2020-01-06 11:45:21,359 INFO [root] [login.py(test01_login_success:30)] - 登录成功返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c667e377-2bc9-45d0-8364-ac3e1072342e'}
+2020-01-06 11:45:21,359 INFO [root] [login.py(test01_login_success:35)] - 保存的令牌是:{'Content=Type': 'application/json', 'Authorization': 'Bearer c667e377-2bc9-45d0-8364-ac3e1072342e'}
+2020-01-06 11:45:21,427 INFO [root] [test_emp.py(test01_login:34)] - 登录成功返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c667e377-2bc9-45d0-8364-ac3e1072342e'}
+2020-01-06 11:45:21,427 INFO [root] [test_emp.py(test01_login:41)] - 保存的令牌是{'Content=Type': 'application/json', 'Authorization': 'Bearer c667e377-2bc9-45d0-8364-ac3e1072342e'}

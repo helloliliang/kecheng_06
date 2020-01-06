@@ -1,0 +1,7 @@
+2020-01-06 15:21:37,511 INFO [root] [__init__.py(<module>:9)] - TEST日志器能不能正常工作
+2020-01-06 15:21:37,739 INFO [root] [login.py(test01_login_success:30)] - 登录成功返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '4d91d0da-5bda-4822-8069-6c627bb65d03'}
+2020-01-06 15:21:37,739 INFO [root] [login.py(test01_login_success:35)] - 保存的令牌是:{'Authorization': 'Bearer 4d91d0da-5bda-4822-8069-6c627bb65d03', 'Content=Type': 'application/json'}
+2020-01-06 15:21:37,813 INFO [root] [test_emp.py(test02_add_emp:53)] - 添加员工接口返回数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214084588942741504'}}
+2020-01-06 15:21:37,814 INFO [root] [test_emp.py(test02_add_emp:56)] - 11
+2020-01-06 15:21:37,946 INFO [root] [test_emp.py(test03_query_emp:84)] - 查询员工接口返回的数据为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'username': '强强234325322', 'companyId': '1', 'departmentId': '1210411411066695680', 'staffPhoto': None, 'companyName': '传智播客', 'departmentName': '测试', 'inServiceStatus': None, 'enableState': 1, 'formOfEmployment': 1, 'mobile': '38912372917129021', 'formOfManagement': None, 'roleIds': [], 'password': '5c13139485d6b72edb302f7f33acc7c3', 'id': '1214084588942741504', 'createTime': None, 'workingCity': None, 'timeOfEntry': '2020-01-07T00:00:00.000+0000', 'correctionTime': '2020-02-04T16:00:00.000+0000', 'workNumber': '1267378'}}
+2020-01-06 15:21:38,026 INFO [root] [test_emp.py(test05_delete_emp:138)] - 删除员工之后返回的的josn数据为{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
